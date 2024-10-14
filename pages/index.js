@@ -79,19 +79,30 @@ export default function Home() {
                 <div className={styles.infoDiv_spacer}></div>
                 <div className={styles.infoDiv_descriptionDiv}>
                   <p className={styles.infoDiv_paragraph}>
-                      <span className={styles.infoDiv_highlightedtext}>ABHILASHA SAMITI</span> is a voluntary organization in Pithoragarh, Uttarakhand Operating nationally, it focuses on improving livelihoods, social work, biodiversity,  human trafficking, health awareness, women empowerment, culture, and gender issues. 
+                      <span className={styles.infoDiv_highlightedtext}>NANHI CHAUPAL</span> is a dedicated initiative under the umbrella of Vatsalyam Samiti, aimed at bringing back the essence of true childhood. In an age where children are often consumed by technology and material distractions, we strive to reconnect them with their imagination, creativity, and joy. 
                   </p>
                   <p className={styles.infoDiv_paragraph}>
-                  It conducts public awareness campaigns on the right to education and provides employment-oriented training for Self Help Groups, especially in Pithoragarh and other districts of Uttarakhand like Champawat, Almora, and Bageswar.
+                  we believe in the power of imagination and the importance of nurturing a child's holistic development. Our mission is to inspire the next generation to dream big, think creatively, and engage meaningfully with the world around them.
                   </p>
                 </div>
                 <div className={styles.infoDiv_founderDiv}>
-                        <div className={styles.infoDiv_founderDiv_left}>
-                              <img src="/founder.jpeg" className={styles.founderDiv_image} width={400} height={250}/>
-                        </div>
+                <div className={styles.infoDiv_founderDiv_left}>
+    <img 
+        src="/founder.png" 
+        className={styles.founderDiv_image} 
+        width={400} 
+        height={250} 
+        style={{ 
+            objectFit: 'cover',   /* Ensures the image fills the container without stretching */
+            objectPosition: 'top' /* Focuses on the top of the image (showing the face) */
+        }} 
+    />
+</div>
+
+
                         <div className={styles.infoDiv_founderDiv_right}>
-                                    <h2 className={styles.founderDiv_header}>Dr Kishor Pant, Founder & President</h2>
-                                    <p className={styles.founderDiv_description}>He has an experience of over 15 years in giving back to the community, and is leading Abhilasha Samiti with the vision of improving lives of people in remote areas of Uttarakhand</p>
+                                    <h2 className={styles.founderDiv_header}>About the Founder</h2>
+                                    <p className={styles.founderDiv_description}>viplo, the visionary behind Nanhi Chaupal, is a passionate advocate for children's holistic development and well-being. With a deep belief in the power of imagination and creativity, viplo founded Nanhi Chaupal under Vatsalyam Samiti to reconnect children with their true essence of childhood.</p>
                         </div>
 
                 </div>
@@ -159,7 +170,7 @@ export default function Home() {
             <div className={styles.newsDiv}>
                   <div className={styles.newsDiv_top}>
 
-                        <h2 className={styles.newsDiv_top_header}>What&apos;s new in Abhilasha?</h2>
+                        <h2 className={styles.newsDiv_top_header}>What&apos;s new in Nanhi Chaupal?</h2>
 
                   </div>
 
